@@ -1,0 +1,289 @@
+
+body{
+  text-align: center;
+}
+h1{
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+p{
+  font-size: 1.2rem;
+}
+ul{
+  font-size: 1.2rem;
+  padding-left: 0;
+  list-style: none;
+}
+li{
+  margin-bottom: 0.4rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+ul li:before {
+  content: '✓  ';
+
+}
+/*NAVBAR SECTION*/
+#banner{
+  background: white;
+  padding: 0 15%;
+}
+/*CENTER DE BRAND J-FIX*/
+@media (max-width:645px) {
+  #navbar-main{
+    display: block;
+  }
+
+}
+.callus{
+  flex-grow: 1;
+  text-align: right;
+}
+h4{
+  margin-left: 0.5rem;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  display: inline;
+}
+.icon-nav{
+  color: #04a5ed;
+}
+#phonenumber{
+  color: #04a5ed;
+  margin-left: 0;
+}
+/*TITLE SECTION*/
+@media (max-width:1000px) {
+  button{
+    flex-grow: 1;
+  }
+
+}
+@media (max-width:645px) {
+  .callus{
+    text-align: center;
+  }
+
+}
+#nav-bar{
+  padding: 1% 15%;
+  background-color: #333f48;
+}
+#a-navbar{
+  list-style: none;
+  font-size: 1.2rem;
+  color: white;
+}
+#a-navbar-first{
+  padding-left: 0;
+  list-style: none;
+  font-size: 1.2rem;
+  color: white;
+}
+/*HOME SECTION*/
+#home{
+  padding: 7% 15%;
+  height: 40rem;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: left;
+  color: white;
+}
+#home p{
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.home-title{
+  font-size: 3.2rem;
+  padding: 0;
+  float:left;
+  text-align: left;
+
+}
+
+/*what is J-FIX SECTION¨*/
+#byespc{
+  padding: 7% 15%;
+}
+.jfix-title{
+  color: black;
+  font-size: 3rem;
+  font-weight: 700;
+}
+/*FEATURES SECTION*/
+#features{
+  padding: 3% 15%;
+  background: #04a5ed;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.icon{
+  color: white;
+  margin-bottom: 1rem;
+
+}
+.icon:hover{
+  color: #046cb4;
+}
+h3{
+  color: white;
+  font-weight: 800;
+}
+.feature-box p{
+  color: #E8E8E8;
+}
+
+/*NO FIX NO FEE*/
+#nfnf{
+  padding: 3% 15%;
+}
+.nfnf-box{
+  text-align: justify;
+  padding: 5%;
+
+}
+.nfnf-img{
+  padding: 0;
+  width: inherit;
+  height: 21rem;
+}
+
+/*OUR SERVICES*/
+#services{
+  background-color: #333f48;
+  padding: 0 15%;
+  text-align: justify;
+}
+.services-box{
+  float: left;
+  padding: 5%;
+  color: white;
+}
+
+/*PRICES*/
+#prices{
+  padding: 7% 15%;
+
+}
+.margin{
+  margin-bottom: 1rem;
+}
+/*PRICES SECTION*/
+.prices-title{
+  color: black;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.header-one{
+  background-color: #01cba5;
+
+}
+.header-two{
+  background-color: #04a5ed;
+
+}
+.header-three{
+  background-color: #ff6d6d;
+
+}
+.btn-three{
+  background-color : #ff6d6d;
+  border-color:#ff6d6d;
+  color: white;
+}
+.btn-three:hover{
+  color: white;
+  background-color:#dc3545;
+}
+.pricing-column{
+  padding: 2% 3%;
+}
+
+/*TESTIMONIALS SECTION*/
+#testimonials{
+  background: #04a5ed;
+
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.carousel-item h1{
+  line-height: 1.5;
+  font-size: 3rem;
+
+}
+em{
+  color: #333f48;
+  font-size: 1.2rem;
+}
+.img-testimonials{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+
+}
+
+
+/*MAPS SECTION*/
+
+#maps{
+  background-color: #0769b2;
+  margin: 0;
+  padding: 0;
+
+}
+.mapy{
+  height: 400px;
+  padding-right: 0;
+}
+.map-frame{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: inherit;
+}
+/*MAPS SECTION - Contacts*/
+.contact{
+  padding: 5% 5% 0 5%;
+  margin-left: 0;
+  text-align: left;
+}
+.contact h3{
+  font-weight: 500;
+  text-align: left;
+}
+.form-control{
+  background: transparent;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+
+  color: white;
+}
+.form-control::placeholder{
+  color: white;
+}
+
+
+/*FOOTER SECTION*/
+footer{
+  padding: 3% 15% 2% 15%;
+  background-color: #333f48;
+}
+footer p{
+  color: white;
+}
+.ic-foot{
+  margin: 5px;
+  color: white;
+
+
+}
